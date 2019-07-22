@@ -1,5 +1,7 @@
 const startjava = () => {
   sidebar();
+  let loadselect = document.querySelector("#cards");
+  loadselect.innerHTML = mainload;
   getMovieInfo(apimovie);
   startModal();
 };

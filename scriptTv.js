@@ -1,8 +1,10 @@
 const startnode = () => {
+  sidebar();
   let tvref = document.querySelector(".tvlink");
   tvref.addEventListener("click", loadtv());
+  let loadselectTV = document.querySelector("#cards");
+  loadselectTV.innerHTML = mainload;
   startModalTv();
-  sidebar();
 };
 const startModalTv = () => {
   var elems2 = document.querySelectorAll(".modal");

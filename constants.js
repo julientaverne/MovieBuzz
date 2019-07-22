@@ -8,6 +8,20 @@ const loading = `<div id ="page-load">
 
 </div>`;
 
+const mainload = `<div id="mainloadpage">
+<div class="preloader-wrapper big active loadicon">
+<div class="spinner-layer spinner-blue ">
+  <div class="circle-clipper left">
+    <div class="circle"></div>
+  </div><div class="gap-patch">
+    <div class="circle"></div>
+  </div><div class="circle-clipper right">
+    <div class="circle"></div>
+  </div>
+</div>
+</div>
+</div>`;
+
 const templateMovie = (name, budget, overview, revenue, genres) => {
   let genresHtml = "";
   genres.forEach(genre => {
