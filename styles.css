@@ -52,7 +52,8 @@ img:hover {
 #mainloadpage {
   height: 100vh;
   width: 100vw;
-}
-.loadicon {
-  margin: 300px 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
